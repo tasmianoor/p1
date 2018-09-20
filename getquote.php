@@ -33,3 +33,40 @@ $quoteText = $quote['text'];
 $quoteAuthor= $quote['author'];
 
     ?> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+        <title>Tasmia Noor</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Tasmia Noor</h1>
+                <img src="images/photo.png" alt="Picture of Tasmia Noor">
+
+            <h2>About Me</h2>
+                <p>I'm a UX/UI Designer driven by curiosity and passion. Having studied behavior psychology and IoT solutions,  I design clean, intuitive designs with the user in mind.</p>
+                <p>I have extensive training in Research, QA and Project Management with a Bachelor's degree in Behavioral Neuroscience. In my free time, go to meetups, oil paint or creating homemade shampoos!</p>
+        
+            <h2>Favorite Quotes</h2>
+            <h5>(REFRESH THE PAGE TO SEE A NEW QUOTE)</h5>
+            
+                <blockquote>
+                    <p>&ldquo;<?php echo $quoteText; ?>&rdquo;</p>
+                    <span><?php echo $quoteAuthor; ?></span>
+                </blockquote>
+            
+                
+        </div>
+    </body>
+</html>
+
