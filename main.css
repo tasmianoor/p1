@@ -1,0 +1,19 @@
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ff0094;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    color:darkblue;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
