@@ -1,5 +1,5 @@
- <?php
-    $quotes[
+ <?php ini_set('display_errors',1);
+   $quotes=[
         [
             'author' => 'Henry Thomas Buckle, history scholar',
             'text' => 'Men and women range themselves into three classes or orders of intelligence; 
@@ -23,10 +23,11 @@
             'author' => 'Jackie Joyn, track and field athlete',
             'text' => 'If I stop to kick every barking dog I am not going to get where I’m going.'
         ]
-    ];
+    ]; 
 
+$quoteno = rand (1,3);
 
-  $quotes = $quotes[rand (1,3)];
+ $quotesnow = $quotes[$quoteno-1];
 
 $quoteText = $quote['text'];
 
