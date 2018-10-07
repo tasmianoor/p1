@@ -29,11 +29,11 @@ $quoteno = rand (1,3);
 
  $quotesnow = $quotes[$quoteno-1];
 
-$quoteText = $quote['text'];
+$quoteText = $quotesnow['text'];
 
-$quoteAuthor= $quote['author'];
+$quoteAuthor= $quotesnow['author'];
 
-    ?> 
+?> 
 
 
 
