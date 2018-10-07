@@ -1,6 +1,6 @@
 # Project 1
 + By: *Tasmia Noor*
-+ Production URL: <https://github.com/tasmianoor/csci15-p1>
++ Production URL: <http://tasmia.me/p1/getquote.php>
  ## Outside resources
 + Google Fonts
 + Quotes from:
